@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Henna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="logo.jpeg">
+    <script>
+        function showHennaText(){
+            document.getElementById("abouthenna").style.display = "block"
+        }
+    </script>
+    <script>
+        function showHennaStory(){
+            document.getElementById("hennastory").style.display = "block"
+            
+        }
+
+    </script>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">
+        <img src="logo.jpeg" alt="Henna Logo">
+    </div>
+
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Henna</a>
+        <a href="index.html#contact">Contact</a>    
+    </div>
+</nav>
+<header>
+    <h1>Henna by Chry</h1>
+    <p>Where tradition meets elegance</p>
+</header>
+<section class="about">
+    <h2 onclick="showHennaText()">What is Henna?</h2>
+    <p id="abouthenna" class="abouthenna">
+        Henna is a natural dye made from lawsonia plant. For thousands of years it has been a huge part of celebration in North Africa , the Middle East and Southeast Asia. It is used for celebrations, such as weddings and cultural tradtions.The reddish-brown stain afte use leaves behind beautiful designed stained on body parts. Henna is an emotion for many and holds a special part in every occasion.    
+    </p>
+    <h2 onclick="showHennaStory()">Our Story</h2>
+    <p id="hennastory" class="hennastory">Henna by Chry started with a passion for creating beauty through finely-drawn details. Every henna design I create begins with a central theme, a signature design that reflects you, your personality & life experiences, whether it is a bold bridal art design or a delicate henna design. My work combines tradition with elegance so that every client feels beautiful, confident, and connected to the special day they are celebrating.</p>
+    <h2>Our Happy clients</h2>
+    <div class ="gallery">
+        <img src="client1.jpg" alt="Client Henna 1">
+        <img src="client2.jpg" alt="Client Henna 2">
+        <img src="client3.jpg" alt="Client Henna 3">
+        <img src="client4.jpg" alt="Client Henna 4">
+        <img src="client5.jpg" alt="Client Henna 5">
+        <img src="client6.jpg" alt="Client Henna 6">
+    </div>
+</section>
+
+<section id="Contact" class="contact">
+    <h2>Contact Information</h2>
+    <p>📩Email: <a href="mailto:hennachry@gmail.com">click here!</a></p>
+    <p>📍Address:Based in Philadelphia, PA</p>
+    <p>📸Instagram: <a href="https://www.instagram.com/henna_by_chry/" target="_blank">@henna_by_chry</a></p>
+    <p>💵Payment: Cash Only - No Cards Accepted</p>
+</section>
+    
+<footer class="copyright">
+    ©️ 2025 Henna by Chry team. All rights reserved.
+</footer>
+
+</body>
+</html>

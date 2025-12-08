@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henna Art</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="logo.jpeg">
+</head>
+<body>
+    
+<nav class="navbar">
+    <div class="logo">
+        <img src="logo.jpeg" alt="Henna Logo">
+    </div>
+
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Henna</a>
+        <a href="#Contact">Contact</a>    
+    </div>
+</nav>
+
+<header>
+    <img src="logo.jpeg" class="header-logo" alt="Logo">
+    <h1>Henna by Chry</h1>
+    <p>Where tradition meets elegance</p>
+</header>
+
+<section class="gallery">
+    <h2>Our Henna Styles</h2>
+
+    <div class="card">
+        <img src="Simple Henna Style.jpg">
+        <h3>Simple Hand Henna Style</h3>
+        <p>$15-$35</p>
+        <button onclick="selectStyle('Simple Hand Henna Style - $15-$35')">select</button>
+    </div>
+
+     <div class="card">
+        <img src="Semi-Bridal Henna Style.JPG">
+        <h3>Occasionall Hand Henna Style</h3>
+        <p>$120-$200</p>
+        <button onclick="selectStyle('Occasionall Hand Henna Style - $120-$200')">select</button>
+    </div>
+
+    <div class="card">
+        <img src="Bridal Henna Style2.jpg">
+        <h3>Bridal Hand Henna Style</h3>
+        <p>$250-$400</p>
+        <button onclick="selectStyle('Bridal Hand Henna Style - $250-$400')">select</button>
+    </div>
+
+</section>
+
+<section class="booking">
+    <h2>Book Your Appointment</h2>
+
+    <p class="cash-note">Payment Method: Cash Only (Pay at Appointment)</p>
+
+    <form id="bookingform">
+        <label>Selected Style</label>
+        <input type="text" id="style" required readonly>
+
+        <label>Your Name</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Appointment Date</label>
+        <input type="date" required>
+
+        <label>Appointment Time</label>
+        <input type="time" required>
+
+        <label>Upload Your Henna Style (optional)</label>
+        <input type="file" id="hennaUpload" accept="image/*" required>
+
+        <button type="submit">Book Appointment</button>
+    </form>
+
+    <p id="confirmMessage"></p>
+</section>
+
+<section id="Contact" class="contact">
+    <h2>Contact Information</h2>
+    <p>📩Email: <a href="mailto:hennachry@gmail.com">click here!</a></p>
+    <p>📍Address:Based in Philadelphia, PA</p>
+    <p>📸Instagram: <a href="https://www.instagram.com/henna_by_chry/" target="_blank">@henna_by_chry</a></p>
+    <p>💵Payment: Cash Only - No Cards Accepted</p>
+</section>
+
+<script src="script.js"></script>
+
+<footer class="copyright">
+    ©️ 2025 Henna by Chry team. All rights reserved.
+</footer>
+
+</body>
+</html>
