@@ -8,6 +8,7 @@ We built a website using this project to showcase Dewan Chowdhury’s small busi
 
 
 The video covers:
+video Link: https://www.youtube.com/watch?v=fvmSyojw5Ec&feature=youtu.be 
 
 Our name 
 
